@@ -5,6 +5,7 @@ Este é um projeto de Kit de Desenvolvimento inicial para projetos usando `Jekyl
 
 Os diretórios dos arquivos `Sass` estão organizados seguindo as instruções da arquitetura `ITCSS` e da metodologia `RSCSS`.
 
+----
 *PS: Pretendo manter este repositório com o conteúdo em português. Visto que conteúdo encontrado na internet, ainda é muito escasso - ainda mais quando o assunto é Desenvolvimento Web.*
 
 ## Requisitos Básicos
