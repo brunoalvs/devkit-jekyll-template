@@ -23,11 +23,24 @@ Para usar este projeto, você vai precisar de algumas coisas instaladas no seu a
 
 ## Como usar
 
-Abra seu terminal no diretório do projeto e rode:
+Levando em consideração que você já tem o NodeJS instalado na sua máquina (~~Sério que ainda não tem?~~), abra seu terminal no diretório do projeto e rode:
 ```shell
+$ npm install
 $ gulp
 ```
 Isso irá rodar o `GulpJS` e seguirá as instruções deixadas no arquivo `gulpfile.js`.
 Ele irá compilar os arquivos .sass na pasta `assets/sass`, os arquivos .jade em `_jadefiles`, rodar o parâmetro do Jekyll para servir o site estático em `_site` e enfim o `browserSync`.
 
 Pronto, você já está pronto para botar a mão na massa.
+
+## Windows 10 Step
+
+Essa dica foi compartilhada pelo [Willian Justen](https://github.com/willianjusten) para usuários do `Windows 10`(~~infelizmente é meu caso.~~), onde é preciso fazer uma mudança no [gulpfile.js](https://github.com/brunoalv-s/DevKit/blob/master/gulpfile.js#L15) substituindo a linha para `return cp.spawn('jekyll.bat', ['build'])`. Sem fazer essa mudança eu não havia conseguido rodar as tarefas do `GulpJS`. :()
+
+## Agradecimentos
+
+Levei como base os projetos de [Shane Osbourne](https://github.com/shakyShane), [Willian Justen](https://github.com/willianjusten) e [Travis Neison](https://github.com/travisneilson/) para chegar ao resultado final, então deixo o meu muito obrigado a vocês por compartilhar esse tipo de conhecimento que é tão importante para muitos. Espero um dia poder recompensá-los e até ajudar outras pessoas, assim como vocês fizeram por mim.
+
+E um sincero obrigado [onedaylove](https://github.com/onedaylove) por me ajudar a solucionar um problema.
+
+Espero não ter esquecido ninguém.
