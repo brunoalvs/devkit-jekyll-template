@@ -1,0 +1,37 @@
+# Site settings
+title: # Go to index.html (root folder).
+description: Uma breve descrição do seu novo projeto Jekyll
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://www.brunoalves.info" # the base hostname & protocol for your site e.g. http://brunoalves.info
+
+# User settings
+username: Bruno Alves
+user_description: Desenvolvedor Front End e Web Designer, localizado em São Paulo.
+user_title: Front End Developer & Web Designer
+email: brunoalv.s@outlook.com
+twitter_username: lorem_ipsum
+github_username:  lorem_ipsum
+linkedin_username:  lorem_ipsum
+behance_username: lorem_ipsum
+instagram_username: lorem_ipsum
+disqus_username: lorem_ipsum
+
+# Build settings
+markdown: redcarpet #kramdown
+highlighter: pygments
+permalink: /:title/
+
+# Links to include in menu navigation
+# For external links add external: true
+#links:
+#  - title: Home
+#    url: /
+#  - title: LABS
+#    url: /labs
+#  - title: Portfolio
+#    url: /jobs
+#  - title: About Me
+#    url: /about
+
+# Exclui tudo o que não será usado no projeto final.
+exclude: ["node_modules", "gulpfile.js", "package.json", "assets/sass", "README.md"]
