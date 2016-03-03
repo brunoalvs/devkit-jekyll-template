@@ -33,7 +33,7 @@ Ele irá compilar os arquivos .sass na pasta `assets/sass`, os arquivos .jade em
 
 Pronto, você já está pronto para botar a mão na massa.
 
-## Windows 10 Step
+## Dica para usuários do Windows 10
 
 Essa dica foi compartilhada pelo [Willian Justen](https://github.com/willianjusten) para usuários do `Windows 10`(~~infelizmente é meu caso.~~), onde é preciso fazer uma mudança no [gulpfile.js](https://github.com/brunoalv-s/DevKit/blob/master/gulpfile.js#L15) substituindo a linha para `return cp.spawn('jekyll.bat', ['build'])`. Sem fazer essa mudança eu não havia conseguido rodar as tarefas do `GulpJS`. :()
 
