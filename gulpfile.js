@@ -35,7 +35,7 @@ gulp.task('sass', function() {
   return gulp.src('assets/sass/**.{sass,scss}')
     .pipe(sass({ onError: browserSync.notify }))
     .pipe(prefix({ browsers: ['last 2 versions'], }))
-    .pipe(gulp.dest('_site/assets/css'))
+    .pipe(gulp.dest('assets/css'))
     .pipe(browserSync.reload({stream:true}))
 });
 
