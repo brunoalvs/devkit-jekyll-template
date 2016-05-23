@@ -1,4 +1,5 @@
-DevKit - Jekyll, Jade, SASS & BrowserSync.
+![dev-dependencies](https://david-dm.org/brunoalv-s/devkit-jekyll-template/dev-status.svg)
+DevKit Template (Jekyll, Jade, SASS & BrowserSync.)
 ==========================================
 
 Este é um projeto de Kit de Desenvolvimento inicial para projetos usando `Jekyll`, `SASS`, `Jade`, `GulpJS` & `BrowserSync`.
